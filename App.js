@@ -1,15 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React, {useState} from 'react';
-const styles = StyleSheet.create({
-  paragraph: {
-    margin: 24,
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-});
-
-
 export default function App() {
   return (
     <View>
@@ -19,4 +9,12 @@ export default function App() {
     </View>
   );
 }
-
+const styles = StyleSheet.create({
+  paragraph: {
+    margin: 24,
+    fontSize: 18,
+    textDecorationLine: 'underline',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+});
